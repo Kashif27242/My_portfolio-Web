@@ -1,0 +1,61 @@
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("pexels-aadil-2562345.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+
+    background-position: bottom;
+    
+}
+border{
+    height: 100px;
+    width:100px;
+    border: 3px solid red;
+
+}
+
+.header-container{
+    color:black;
+    text-align: center;
+    transform: translate(00%,-100%);
+
+}
+.header-container h2{
+
+
+    font-size: 5vmin;
+
+
+}
+header-container h1{
+
+
+    font-size: 200px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+  
+
+
+}
+
+.CTN{
+color:blue;
+font-size: xx-large;
+
+}
+
+
+
+
+.line{
+    width:300px;
+    height: 4px;
+    background:#fc036b;
+    margin: 10px auto;
+    border-radius: 10px;
+
+}

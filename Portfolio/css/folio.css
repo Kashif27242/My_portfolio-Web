@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* .folio{
+    color: crimson;
+    margin: 20px;
+   
+
+} */
+body{
+    background-color: black;
+}
+/* navigation */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color:green;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid crimson;
+
+
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li a{
+    font-size: 1.1 rem;
+    font-weight: bold;
+
+}
+
+.navbar ul a{
+
+    text-decoration: none;
+    margin: 20px;
+    padding: 8px 25px;
+    color: white;
+    transition: all .5s ease;
+
+}
+
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+
+
+/* home section */
+#home{
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0, 0,0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+
+
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url();
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+/* .btn{
+
+    padding: 8px 25px;
+    transition: all .5s ease;
+    box-shadow: 0 0 10px white;
+
+} */
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top:30%;
+    right: 10%;
+}
+
+
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color:crimson;
+    color:black;
+    border: 1px solid white;
+    outline: none;
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white;
+}
+
+#me{
+    transform: translate(-260%,17%);
+    border: 3px solid white;
+    border-radius:50%;
+    box-shadow: 10px white;
+}
+
+
+
+/* ABOUT SECTION STARTS HERE */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+    color:black;
+
+}
+#pic{
+    display: inline-block;
+   
+}
+#pic img{
+    
+display: inline-block;
+width: 575px;
+height: 400px;}
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:brown;
+    color: white;
+    padding: 20px;
+}
+
+
+.gallary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    float: left;
+}
+.gallary img{
+height: 240px;
+width: 240px;
+margin: 10px;
+
+
+
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex: wrap;
+    box-sizing: border-box;
+
+}
+
+
+
+/* services styling */
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color:white;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 450px;
+    border: 1px solid black;
+    margin:30px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    
+background: linear-gradient(to top,rgb(45, 255, 62)50%,white 50%);
+  transition: all .8s;
+
+
+
+}
+
+.box:hover{
+    background-position: left bottom;
+    color:black;
+    border: none;
+    
+
+
+}
+.box img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: azure;
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg{
+width: 20%;
+padding: 10px;
+}
